@@ -10,7 +10,7 @@ margin: auto;
 
 h1 {
   color: #777777;
-  border: 1px solid #777777;
+  border-bottom: 1px solid #777777;
 }
 
 h2 {
@@ -54,7 +54,7 @@ width: 20%;
 
 .main-content {
 float: left;
-width: 70%auto;
+width: 70%;
 }
 
 
