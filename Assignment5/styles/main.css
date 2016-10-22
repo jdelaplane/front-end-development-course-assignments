@@ -19,6 +19,7 @@ Body {
 }
 .navigation {
     border: 15px solid white;
+    border-radius: 25px;
     background: #1e5799;
     background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
     background: -webkit-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
@@ -26,19 +27,22 @@ Body {
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8', GradientType=0);
     padding: 10px;
 
+
 }
 .navigation a {
     color: #ffffff;
     font-size: 22px;
     font-weight: bold;
     margin: 0 10px 0 10px;
+
 }
 .hero {
     background-image: url(../images/hero.jpg);
     border-radius: 15px;
     height: 300px;
     padding: 5px
-    width: 100%;
+    width: 200px;
+    border-radius: 50%;
 
 }
 .services {
@@ -75,4 +79,8 @@ color: #add8e6;
 div h2 {
 
   color:#8aacb8;
+}
+
+h2 {
+padding-left: 58px;
 }
