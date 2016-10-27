@@ -1,1 +1,17 @@
+body {
+  background-color:
+  width: 960px;
+}
+.topbox {
+  width: 960;
+  height:128px;
+  background-color: #00aaaa;
+}
 
+.topbox h1, h2 {
+  color: #fff;
+}
+
+.navclass .portclass {
+  float:left;
+}
