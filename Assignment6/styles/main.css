@@ -14,14 +14,14 @@ body {
 .topbox h1,
 h2 {
     color: #fff;
-    padding: 10px 0 10px 5px;
+    padding: 10px 0 10px 20px;
 }
 .one {
-  text-shadow: 5px 5px 5px #4564FF;
+  text-shadow: 5px 5px 5px #2BD5FF;
 }
 
 .two {
-  text-shadow: 5px 5px 5px #4564FF;
+  text-shadow: 5px 5px 5px #2BD5FF;
 }
 .navbar {
     float: left;
