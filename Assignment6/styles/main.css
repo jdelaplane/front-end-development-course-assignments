@@ -14,6 +14,14 @@ body {
 .topbox h1,
 h2 {
     color: #fff;
+    padding: 10px 0 10px 5px;
+}
+.one {
+  text-shadow: 5px 5px 5px #4564FF;
+}
+
+.two {
+  text-shadow: 5px 5px 5px #4564FF;
 }
 .navbar {
     float: left;
@@ -68,5 +76,11 @@ h2 {
   text-decoration: none;
   color:#aa0000;
   font-weight: bold;
+
+}
+
+#box {
+
+ box-shadow:  2px 2px 2px  #000000;
 
 }
