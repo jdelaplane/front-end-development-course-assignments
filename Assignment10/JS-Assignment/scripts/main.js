@@ -9,6 +9,11 @@ function update() {
     console.log(lastName);
 
 
+    document.getElementById('firstName').innerHTML=firstName;
+
+
+
+
 
 
     // Part 2

@@ -43,17 +43,37 @@ document.getElementById("partFour").innerHTML = fullName;
 
 ///////////// part 6
 
-var part6Result =getRandomNumber();
+var part6Result;
 
+if (part6Number > 50) {
 
-if (part6Result > 50) alert("over 50");
+  part6Result = "above 50";}
 
-else {
+  else {
 
-alert("below 50");
+    part6Result = "below or equal  to 50";
+  }
 
+////////////// part 7
 
+var part7Result;
+
+if( part7Number < 25 ) {
+    part7Result = "Below 25";}
+
+    else if( part7Number >= 25 && part7Number < 50 ) {
+    part7Result = "Between 25 and 50";}
+
+    else if( part7Number >= 50 && part7Number < 75 ) {
+    part7Result = "Between 50 and 75";}
+
+    else {
+    part7Result = "Above 75";
 }
+
+
+
+
 
 
 
