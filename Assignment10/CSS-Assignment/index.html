@@ -1,24 +1,284 @@
 <!doctype html>
-<html>
 
-	<head>
-		<title>Assignment 10</title>
-		<link rel="stylesheet" href="styles/main.css">
-	</head>
+<head>
+    <title>Assignment 10</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
 
-	<body>
-		<div class="topbox"></div>
-			<div>
-				<div class="redbox">
-				<nav>
-  			<a href="#">Home</a>
-  			<a href="#">About</a>
-  			<a href="#">Clients</a>
-  			<a href="#">Contact Us</a>
-				</nav>
-			</div>
+<body>
+
+<header>
+    <img src="http://placehold.it/350x150" alt="">
+</header>
+
+<nav>
+
+    <ul class="topNav">
+
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Clients</a></li>
+        <li><a href="#">Contact Us</a></li>
+
+    </ul>
+
+</nav>
 
 
-	</body>
+<div class="topbox">
+
+  <img src="http://placehold.it/620x309" alt="">
+
+</div>
+
+<div class="sidetopboxes">
+
+      <img src="http://placehold.it/300x150" alt="">
+      <img src="http://placehold.it/300x150" alt="">
+</div>
+
+<div class = "clear"></div>
+
+<div class = "currentEvents">
+
+  <h2 class="currentEventsH2">Current Events</h2>
+
+</div>
+
+<div  class="PicturesCurrentEvents">
+
+    <ul>
+        <img src="http://placehold.it/150x150" alt="">
+        <img src="http://placehold.it/150x150" alt="">
+        <img src="http://placehold.it/150x150" alt="">
+        <img src="http://placehold.it/150x150" alt="">
+        <img src="http://placehold.it/150x150" alt="">
+    </ul>
+
+</div>
+
+<div class = "RecentPosts">
+
+  <h2 class="RecentPostsH2">RecentPosts</h2>
+
+</div>
+
+<div class="bottomArticles">
+
+    <article>
+
+        <img src="http://placehold.it/350x225" alt="">
+
+        <div class="paragraphArticle">
+            <h1>Article 1</h1>
+
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiatvitae, ultricies eget, tempor sit amet, ante.</p>
+        </div>
+
+    </article>
+    <article>
+
+        <img src="http://placehold.it/350x225" alt="">
+
+        <div class="paragraphArticle">
+            <h1>Article 2</h1>
+
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiatvitae, ultricies eget, tempor sit amet, ante.</p>
+        </div>
+
+    </article>
+    <article>
+
+        <img src="http://placehold.it/350x225" alt="">
+
+        <div class="paragraphArticle">
+            <h1>Article 3</h1>
+
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiatvitae, ultricies eget, tempor sit amet, ante.</p>
+        </div>
+
+    </article>
+
+</div>
+
+<div class="Sponsors">
+
+        <h3>Sponsors</h3>
+
+        <ul>
+            <img src="http://placehold.it/150x150" alt="">
+            <img src="http://placehold.it/150x150" alt="">
+            <img src="http://placehold.it/150x150" alt="">
+            <img src="http://placehold.it/150x150" alt="">
+        </ul>
+
+</div>
+
+<footer class="clear">
+
+    <p>2016</p>
+
+    <nav>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Clients</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+
+    </nav>
+
+</footer>
+
+
+</body>
+
+<style>
+
+{
+    box-sizing:border-box;
+}
+
+body {
+    font-family: arial;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 960px;
+}
+
+h1 {
+    color: #a00;
+    font-size: 24px;
+}
+
+h2 {
+    border-bottom: 1px solid #a00;
+    border-top: 1px solid #a00;
+    color: #a00;
+    font: 12px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+}
+
+img {
+    display: inline-block;
+}
+
+
+
+
+.topNav {
+    background-color: #a00;
+    border-radius: 25px;
+    font-size: 24px;
+    margin-top: 6px;
+    padding: 5px;
+    text-align: center;
+}
+
+.topNav li a {
+    color: #fff;
+    padding: 12px;
+}
+
+li {
+    display: inline-block;
+}
+
+.topbox {
+    float: left;
+    width: 66%;
+}
+
+.sidetopboxes {
+    float: right;
+    width: 33%;
+}
+
+.PicturesCurrentEvents img {
+    display: inline-block;
+    padding: 10px;
+}
+
+.bottomArticles {
+    border-right: 1px solid #a00;
+    float: left;
+    padding-right: 20px;
+    width: 65%;
+}
+
+.bottomArticles article {
+
+    width: 95%;
+}
+
+.bottomArticles img {
+    padding: 5px;
+    width: 40%;
+}
+
+.paragraphArticle {
+    float: right;
+    width: 45%;
+}
+
+.Sponsors {
+    float: right;
+    width: 32%;
+}
+
+.Sponsors h3 {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.Sponsors ul img {
+    float: left;
+    padding: 10px;
+    width: 50%;
+}
+
+p {
+    font-size: 18px;
+}
+
+footer p {
+    float: left;
+    font-size: 1.35em;
+    font-weight: bold;
+}
+
+footer nav {
+    float: right;
+}
+
+footer nav li a {
+    color: #a00;
+    font-size: 1.1em;
+    padding: 10px;
+}
+
+.clear {
+  clear: both;
+}
+</style>
 
 </html>
