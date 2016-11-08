@@ -1,28 +1,28 @@
-* {
+{
     box-sizing:border-box;
 }
 
-.topbox {
-  background-color: #CCCCCC;
-  height:150px;
-  width:350px;
+body {
+    font-family: arial;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 960px;
 }
 
-.redbox a {
-  text-decoration: none;
-  color: #fff;
-  text-align: center;
 
+
+
+.topNav {
+    background-color: #a00;
+    border-radius: 25px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 6px;
+    padding: 5px;
+    text-align: center;
 }
 
-.redbox li {
-  text-align: center;
-  padding-top: 10px;
-}
-
-.redbox {
-
-  background-color: #AA0000;
-  width: 960px;
-  height:38px;
+.topNav li a {
+    color: #fff;
+    padding: 12px;
 }
