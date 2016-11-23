@@ -3,6 +3,7 @@
 }
 
 body {
-    width:500px;
-    margin:20px auto;
+    background-color: red;
+    width:960px;
+    margin:0;
 }
