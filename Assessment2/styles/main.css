@@ -1,3 +1,115 @@
 * {
     box-sizing: border-box;
 }
+body {
+    width: 960px;
+    margin: auto;
+}
+.header {
+    background-color: #AA0000;
+    padding-left: 15px;
+    margin: 0;
+    padding: 0;
+}
+.header h1,
+h3 {
+    color: #fff;
+}
+.header h3 {} a:hover {
+    background-color: #700000;
+}
+a:hover {
+    text-decoration: underline;
+}
+.topNav {
+    background-color: #800000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.topNav a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+    padding: 15px;
+}
+li {
+    display: inline-block;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.searchbox {
+    float: right;
+    padding-right: 10px;
+}
+img {
+    float: left;
+}
+.clear {
+    clear: both;
+}
+.main1 p {
+    display: block;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.main1 h1 {
+    text-align: center;
+    font-weight: normal;
+}
+.main2 {
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#inputgup {
+    padding: 20px;
+    margin-left: 180px;
+}
+#inputgup input {
+    padding: 8px;
+    font-size: 16px;
+    align-items: center;
+    width: 300px;
+}
+#inputgup label {
+    margin-right: 50px;
+}
+.howDidYouFindUs {
+    width: 300px;
+    padding: 8px;
+}
+#Opinion {
+    margin-left: auto;
+}
+.footer {
+    clear: both;
+    text-align: center;
+}
+.submit {
+    text-align: center;
+}
+.bottomNav {
+    background-color: grey;
+    padding: 15px;
+    text-align: left;
+}
+.bottomNav a {
+    padding: 15px;
+    text-decoration: none;
+    color: #333333;
+}
+.bottomNav li {
+    align-items: stretch;
+}
+//////////
+.invalid {
+    border: 1px solid red;
+}
+#main2 ul {
+    list-style: initial;
+}
+
+#main2 li {
+    color: red;
+    display: list-item;
+
+}

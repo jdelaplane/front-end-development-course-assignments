@@ -11,6 +11,12 @@ body {
     width: 960px;
 }
 
+<<<<<<< HEAD
+header {
+    margin-left: 10px;
+}
+
+=======
 h1 {
     color: #a00;
     font-size: 24px;
@@ -26,6 +32,7 @@ h2 {
 }
 
 
+>>>>>>> origin/master
 a {
     text-decoration: none;
 }
@@ -46,8 +53,48 @@ img {
     display: inline-block;
 }
 
+<<<<<<< HEAD
+h1 {
+    color: #a00;
+    font-size: 24px;
+}
 
+h2 {
+    border-bottom: 1px solid #a00;
+    border-top: 1px solid #a00;
+    color: #a00;
+    font: 12px;
+    padding: 20px;
+    text-align: center;
+}
 
+p {
+    font-size: 18px;
+}
+
+footer p {
+    float: left;
+    font-size: 1.35em;
+    font-weight: bold;
+}
+=======
+>>>>>>> origin/master
+
+footer nav {
+    float: right;
+}
+
+footer nav li a {
+    color: #a00;
+    font-size: 1.1em;
+    padding: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* === Specific Settings === */
 
 .topNav {
     background-color: #a00;
@@ -63,6 +110,21 @@ img {
     padding: 12px;
 }
 
+<<<<<<< HEAD
+.topMain {
+    float: left;
+    padding: 10px;
+    width: 66%;
+}
+
+.topAside {
+    float: right;
+    padding: 10px;
+    width: 33%;
+}
+
+.currentEventPics img {
+=======
 li {
     display: inline-block;
 }
@@ -78,10 +140,41 @@ li {
 }
 
 .PicturesCurrentEvents img {
+>>>>>>> origin/master
     display: inline-block;
     padding: 10px;
 }
 
+<<<<<<< HEAD
+.bottomMain {
+    border-right: 1px solid #a00;
+    float: left;
+    padding-right: 20px;
+    width: 66.6666%;
+}
+
+.bottomMain article {
+    border-bottom: 1px solid #a00;
+    width: 100%;
+}
+
+.bottomMain img {
+    padding: 10px;
+    width: 45%;
+}
+
+.bottomMain .articleText {
+    float: right;
+    width: 55%;
+}
+
+.bottomAside {
+    float: right;
+    width: 33.3333%;
+}
+
+.bottomAside h3 {
+=======
 .bottomArticles {
     border-right: 1px solid #a00;
     float: left;
@@ -110,15 +203,22 @@ li {
 }
 
 .Sponsors h3 {
+>>>>>>> origin/master
     font-size: 1.3em;
     text-align: center;
 }
 
+<<<<<<< HEAD
+.bottomAside ul img {
+=======
 .Sponsors ul img {
+>>>>>>> origin/master
     float: left;
     padding: 10px;
     width: 50%;
 }
+<<<<<<< HEAD
+=======
 
 p {
     font-size: 18px;
@@ -143,3 +243,4 @@ footer nav li a {
 .clear {
   clear: both;
 }
+>>>>>>> origin/master
