@@ -3,7 +3,33 @@
 }
 
 body {
-    background-color: red;
-    width:960px;
-    margin:0;
+    background-color: #fff;
+    width:500px;
+    margin:20px auto;
+    color: blue;
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.invalid{
+    border:1px solid #a00;
+}
+
+#messages {
+  padding: 20px;
+}
+
+.control-panel {
+  padding: 10px;
+}
+
+#inputgroup input {
+    padding: 8px;
+    font-size: 16px;
+
+    width: 300px;
+}
+
+#inputgroup label {
+    margin-right:30px;
 }

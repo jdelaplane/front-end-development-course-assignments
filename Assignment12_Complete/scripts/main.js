@@ -32,7 +32,7 @@ function update() {
         email.classList.add(errClass);
 
         //Check to see if our input contains @ or .com
-    } else if (email.value.indexOf('@') == -1 ||
+    } else if (email.value.indexOf('@') === -1 &&
         email.value.indexOf('.com') == -1) {
         errorMsg.push('A Valid Email is required');
         email.classList.add(errClass);
@@ -42,13 +42,13 @@ function update() {
     var password = getElm('password');
     if (password.value === '') {
         errorMsg.push('Password is required');
-        password.classList.add(errClass);
+
     }
 
     var passwordConfirm = getElm('passwordConfirm');
     if (passwordConfirm.value === '') {
         errorMsg.push('Confirm is required');
-        passwordConfirm.classList.add(errClass);
+        
     }
 
 
@@ -63,7 +63,7 @@ function update() {
         passwordConfirm.classList.add(errClass);
     }
 
-    /*  
+    /*
     Alternative way
     if (password.value !== '') {
         if (passwordConfirm.value !== '') {
@@ -81,12 +81,12 @@ function update() {
 
         //Loop through and add each message to our html variable
         for (var i = 0; i < errorMsg.length; i++) {
-            //html += errorMsg[i] + '<br />';            
+            //html += errorMsg[i] + '<br />';
             html = html + errorMsg[i] + '<br />';
         }
-        
+
         //Update our html with new string
-        getElm('message').innerHTML = html;
+        getElm('messages').innerHTML = html;
     } else {
 
         //Everything checked out. Display a thank you message
