@@ -11,6 +11,7 @@ $('#btnOne').on('click',function ()
 });
 
 
+<<<<<<< HEAD
 /// Part 2 ///
 
 $('#btnTwo').on('click',function () {
@@ -66,4 +67,6 @@ $('#paste-text').val(copiedValue);
 
 
 
+=======
+>>>>>>> uagc-it-readiness/master
 });
