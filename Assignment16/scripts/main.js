@@ -64,14 +64,14 @@ $('#btnFadeToggle').on('click', function () {
 
 $('#btnSlideUp').on('click', function () {
 
-    $('.display-slide').slideUp(5000);
+    $('.display-slide').slideUp(500);
 
 })
 
 
 $('#btnSlideDown').on('click', function () {
 
-    $('.display-slide').slideDown(5000);
+    $('.display-slide').slideDown(500);
 
 })
 
