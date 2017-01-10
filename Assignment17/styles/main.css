@@ -20,11 +20,11 @@ body {
 .even{
     background:#c3c5c9;
 }
-   
+
 .input-group input{
     display:block;
     width:100%;
     font-size:20px;
-    padding:10px;
+    padding:20px;
 
 }

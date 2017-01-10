@@ -2,6 +2,43 @@
     box-sizing: border-box;
 }
 
+/* Part 1 */
+
+[target] {
+  color:green;
+}
+
+[type = "text"] {
+  background-color: pink;
+}
+
+[type = "checkbox"] {
+  background-color: yellow;
+  width: 100%;
+}
+
+[href^="https"] {
+
+  color: orange;
+
+}
+
+
+[href$=".edu"] {
+  color: brown;
+}
+
+[href*="mart"] {
+  color:gray;
+}
+
+/* Part 2 */
+
+
+
+
+
+
 body {
     width: 900px;
     margin: 20px auto;

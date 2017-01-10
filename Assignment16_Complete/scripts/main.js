@@ -37,7 +37,7 @@ $(document).ready(function () {
 
     /////////////Part 5//////////////////////
     $('#btnSlideDown').on('click', function () {
-        $('.display-slide').slideDown(1000);
+        $('.display-slide').slideDown(10000);
     });
     $('#btnSlideUp').on('click', function () {
         $('.display-slide').slideUp(500);
