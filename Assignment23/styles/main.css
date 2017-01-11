@@ -62,6 +62,6 @@ section {
     display: inline-block;
 }
 
-.fa fa-chevron-right {
-  float:right;
+ i {
+    float: right;
 }
