@@ -1,4 +1,7 @@
 body,
+
+
+
 ul {
     padding: 0
 }
@@ -8,7 +11,9 @@ ul {
 }
 
 body {
+    font-family: 'Bungee Shade', cursive;
     margin: 0
+
 }
 
 nav a {
@@ -18,6 +23,7 @@ nav a {
 
 ul {
     list-style: none
+
 }
 
 nav ul {
@@ -54,4 +60,8 @@ section {
     color: #a00;
     text-decoration: none;
     display: inline-block;
+}
+
+.fa fa-chevron-right {
+  float:right;
 }
