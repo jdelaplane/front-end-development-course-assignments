@@ -69,9 +69,7 @@ section {
 }
 
 @media screen and (max-width:650px) {
-    section>h1 {
-        padding-left: 10px;
-    }
+
     .image-gallery li {
         width: 33.33333%
     }
@@ -87,6 +85,6 @@ section {
     }
     nav li {
         display:block;
-        padding:10px 0; 
+        border: 5px;
     }
 }

@@ -68,3 +68,27 @@ section {
     display: block;
     margin: 0 auto
 }
+
+
+@media screen and (max-width:480px) {
+  .image-gallery li {
+
+    width:50%;
+  }
+
+  nav li {
+      display:block;
+      padding:10px 0;
+  }
+}
+
+@media screen and (max-width:638px) {
+  .image-gallery li {
+
+    width:33.33%;
+  }
+
+  section>h1 {
+      padding-left: 10px;
+  }
+}
