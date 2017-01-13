@@ -110,3 +110,72 @@ footer>nav>a {
     padding: 0 10px;
     display:block;
 }
+
+@media screen and (min-width:480px) {
+
+.article-list article {
+  clear:both;
+  overflow: hidden;
+}
+
+.article-list article img {
+    float: left;
+    width: 50%;
+}
+
+}
+
+@media screen and (min-width:620px) {
+
+ .main-header nav {
+   text-align: center;
+
+}
+
+.main-header nav a, footer nav a {
+  display: inline-block;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero img {
+  max-width: 620px;
+}
+
+.sponsors> .sponsor-ads img {
+  width: 100%;
+
+}
+
+.article-list {
+  float: left;
+  width: 75%;
+}
+
+section aside {
+    float: right;
+    width: 24%;
+    overflow: hidden;
+}
+
+@media screen and (min-width:960px) {
+    .main-container {
+        max-width: 960px;
+    }
+    .sponsors>.sponsor-ads>img {
+        width: 50%;
+    }
+   .article-list article img {
+        max-width: 350px;
+    }
+    footer nav {
+        text-align:right;
+    }
+
+
+
+
+
+}
