@@ -1,6 +1,8 @@
 body,
+
 ul {
     padding: 0
+
 }
 
 a,
@@ -14,6 +16,8 @@ nav li {
 
 body {
     margin: 0
+
+
 }
 
 a {
@@ -68,3 +72,31 @@ section {
     display: block;
     margin: 0 auto
 }
+
+@media screen and (min-width:650px){
+    .image-gallery li {
+        float: left;
+        text-align: center;
+        width: 25%
+    }
+
+}
+
+@media screen and (min-width:480px) and (max-width:650px) {
+
+  {
+    float: left;
+    text-align: center;
+    width:33%;
+
+  }
+}
+
+@media screen and (min-width:480) {
+
+  .image-gallery li {
+    float:left;
+    text-align: center;
+    width: 50%;
+
+  }
