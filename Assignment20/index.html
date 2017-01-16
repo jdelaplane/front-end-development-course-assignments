@@ -12,15 +12,15 @@
           <header class="navigation">
               <img src="http://placehold.it/350x100" />
               <nav>
-                  <<a href="#">Home</a>
-                      < <a href="#">Q & A</a>
+                  <a href="#">Home</a>
+                      <a href="#">Q & A</a>
                           <a href="http://twitter.com/" target="_blank">Twitter<i class="fa fa-twitter-square" aria-hidden="true"></i></a>
                           <a href="http://facebook.com/" target="_blank">Facebook<i class="fa fa-facebook-official" aria-hidden="true"></i></i></a>
 
               </nav>
           </header>
 
-          <section class="Question">
+          <section class="question">
               <h2>Question</h2>
               <article>
               <h3>Why is the sky blue but clouds are white?</h3>
@@ -33,21 +33,24 @@
               <footer class="askedBy">
                   <h3>Asked by </h3>
                   <img src="jasonfreeman.jpg" alt="Mountain View" style="width:100px;height:100px;">
-                  <p>James Fry</p>
+                  <p2>James Fry</p2>
               </footer>
             </section>
 
+            <br><br><br>
+
               <section class="Answers-container">
                 <div class="AnswersText">
-                  <header>
-                    <h3>Answer<h3>
-                  </header>
+
                   <article>
+                    <header>
+                      <h3>Answer<h3>
+                    </header>
                   <p>The sky is blue because the molecules in the air scatter light in the higher wavelengths (that is, the blue light), while lower wavelength light (that is, the light on the red end of the spectrum) goes through to the ground. So the light that get finally reflected down from the scattering is blue, therefore a blue sky. This is called Rayleigh scattering. Clouds are usually white due to the reflection of light off the water vapor and the ice crystals in the clouds.
                   </p>
 
                   <footer class="user-info">
-                      <img src="http://placehold.it/50x50" />
+                      <img src="abe.jpg" style="width:100px;height:100px;" />
                       <h3>John Doe</h3>
                   </article>
               </div>
@@ -59,28 +62,30 @@
         </aside>
           </section>
 
-            <Form class="SubmitAnswers">
-                <h2>Submit Your Answer</h2>
+          <section class="answer-form">
+            <Form action="">
+
+                <div class="input-group">
                 <label for="YourName">Your Name</label>
                 <input type="password" name="YourName" id="YourName"/>
                 <span class="error requiredMsg">Your Name is required</span>
+              </div>
 
-            <div class="SubmitAnswers">
+            <div class="input-group">
                 <label for="YourAnswer">Your Answer</label>
                 <textarea name="" id="YourAnswer"></textarea>
                 <span class="error requiredMsg">Answer is required</span>
+              </div>
             </Form>
+          </section>
+
+            <div class="controls">
+                <button id="btnSubmit" type="button">Submit</button>
+                <button id="btnReset" type="reset">Reset</button>
+            </div>
 
           </div>
         </div>
-
-
-
-
-
-
-
-
 
 
 
