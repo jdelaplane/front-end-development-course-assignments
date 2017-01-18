@@ -4,3 +4,37 @@
 body {
     margin: 0
 }
+
+article {
+  float:left;
+}
+
+@media screen and (max-width:576px){
+    article {
+     width:100%;
+   }
+}
+
+@media screen and (min-width:576px) and (max-width:768px) {
+    article {
+     width:50%;
+   }
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    article {
+     width:33.3333%;
+   }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    article {
+     width:25%;
+   }
+}
+
+@media screen and (min-width:1200px){
+     article {
+        max-width: 16.6%;
+    }
+}

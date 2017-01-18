@@ -4,21 +4,103 @@
     <head>
         <title>Assignment 18</title>
         <link rel="stylesheet" href="styles/main.css">
+        <script src="https://use.fontawesome.com/61419f7c71.js"></script>
     </head>
 
     <body>
-        <div class="fl">
-            <h2>Append</h2>
-            <ul id="append">
-            </ul>
+      <div class="container">
+          <header class="navigation">
+              <img src="http://placehold.it/350x100" />
+              <nav>
+                  <a href="#">Home</a>
+                      <a href="#">Q & A</a>
+                          <a href="http://twitter.com/" target="_blank">Twitter<i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                          <a href="http://facebook.com/" target="_blank">Facebook<i class="fa fa-facebook-official" aria-hidden="true"></i></i></a>
+
+              </nav>
+          </header>
+
+          <section class="question">
+              <h2>Question</h2>
+              <article>
+              <h3>Why is the sky blue but clouds are white?</h3>
+                <p> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                  Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit
+                  amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend le
+                </p>
+              </article>
+
+              <footer class="askedBy">
+                  <h3>Asked by </h3>
+                  <img src="jasonfreeman.jpg" alt="Mountain View" style="width:100px;height:100px;">
+                  <p2>James Fry</p2>
+              </footer>
+            </section>
+
+            <br><br><br>
+
+              <section class="Answers-container">
+                <div class="AnswersText">
+
+                  <article>
+                    <header>
+                      <h3>Answer<h3>
+                    </header>
+                  <p>The sky is blue because the molecules in the air scatter light in the higher wavelengths (that is, the blue light), while lower wavelength light (that is, the light on the red end of the spectrum) goes through to the ground. So the light that get finally reflected down from the scattering is blue, therefore a blue sky. This is called Rayleigh scattering. Clouds are usually white due to the reflection of light off the water vapor and the ice crystals in the clouds.
+                  </p>
+
+                  <footer class="user-info">
+                      <img src="abe.jpg" style="width:100px;height:100px;" />
+                      <h3>John Doe</h3>
+                  </article>
+              </div>
+        <aside>
+          <section class="activity">
+              <h3>Activity Log</h3>
+                <p> John Doe has responded <p>
+            </section>
+        </aside>
+          </section>
+
+          <section class="answer-form">
+            <Form action="">
+
+                <div class="input-group">
+                <label for="YourName">Your Name</label>
+                <input type="password" name="YourName" id="YourName"/>
+                <span class="error requiredMsg">Your Name is required</span>
+              </div>
+
+            <div class="input-group">
+                <label for="YourAnswer">Your Answer</label>
+                <textarea name="" id="YourAnswer"></textarea>
+                <span class="error requiredMsg">Answer is required</span>
+              </div>
+            </Form>
+          </section>
+
+            <div class="controls">
+                <button id="btnSubmit" type="button">Submit</button>
+                <button id="btnReset" type="reset">Reset</button>
+            </div>
+
+          </div>
         </div>
-        <div class="fl">
-            <h2>Prepend</h2>
-            <ul id="prepend">
-            </ul>
-        </div>
-        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-        <script src="scripts/main.js"></script>
+
+
+
+              <div class="fl">
+                  <h2>Append</h2>
+                  <ul id="append">
+                  </ul>
+              </div>
+              <div class="fl">
+                  <h2>Prepend</h2>
+                  <ul id="prepend">
+                  </ul>
+              </div>
+              <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+              <script src="scripts/main.js"></script>
     </body>
 
 </html>
