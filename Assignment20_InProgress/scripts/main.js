@@ -9,7 +9,7 @@ $(document).ready(function(){
     $('#answer').on('blur', validateAnswer);
 
 
-    
+
     //Register button click events
     $('#btnReset').on('click', resetForm);
     $('#btnSubmit').on('click', submitForm);
@@ -18,14 +18,14 @@ $(document).ready(function(){
 
 
 
-    //checks to see if an name is filled out and 
+    //checks to see if an name is filled out and
     //shows an error message if it is not
      function validateName(){
         var nameElm = $('#name');
     }
 
-    
-    //checks to see if an answer is filled out and 
+
+    //checks to see if an answer is filled out and
     //shows an error message if it is not
     function validateAnswer(){
         var answerElm = $('#answer');
@@ -45,7 +45,7 @@ $(document).ready(function(){
 
 
         //Display thank you message
-        
+
         //Execute ajax post
     }
 
