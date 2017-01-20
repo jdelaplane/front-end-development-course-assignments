@@ -139,3 +139,7 @@ aside{
 .controls button:hover{
     background-color:#aa0000;
 }
+
+.invalid {
+    border: 1px solid #aa0000;
+}
