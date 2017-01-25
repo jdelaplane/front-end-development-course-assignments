@@ -5,20 +5,18 @@ body {
   margin: auto;
 }
 
-.col-md-1 h1 {
-  color:#144087;
-}
+
 
 header{
     background-color: #649bf4;
     overflow: hidden;
+
 }
-.logo{
-    margin-top:4px;
-    height: 200px;
-    padding: 5px;
-    width: 200px;
+
+header a {
+  display: inline-block;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -52,28 +50,7 @@ nav > ul{
 float:right;
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #999;
-    min-width: 160px;
-}
 
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-content a:hover {
-    background-color: #f1f1f1
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
 
 
 .istanbul_main {
@@ -100,13 +77,15 @@ float:right;
 }
 
 .nightlifeSection img {
-  height: 300;
+  height: 300px;
   widht:300px;
 }
 
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
   li a {
+
+    display: inline-block;
 
   }
 }
