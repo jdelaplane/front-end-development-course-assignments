@@ -4,8 +4,8 @@ function showDialog() {
   $('.overlay').fadeIn();
   $('.modal').slideDown();
 
-  $('#btnClose').on('click', hideDialog);
-  $('.overlay').on('click', hideDialog);
+  $('#btnClose, .overlay').on('click', hideDialog);
+
 
 }
 

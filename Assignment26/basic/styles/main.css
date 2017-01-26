@@ -12,6 +12,10 @@ h1, p {
       padding: 13px 25px;
       text-align: right;
       font-size: 15px;
+      position:relative;
+        top: 0;
+        right:-172px;
+
 
 }
 
@@ -38,5 +42,5 @@ h1, p {
   display:none;
   border: 1px solid black;
   padding: 10px;
-  background: white;
+  background: #eaf2f0;
 }
